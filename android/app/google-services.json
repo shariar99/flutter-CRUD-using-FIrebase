@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "808698066797",
+    "firebase_url": "https://shohanbot-xasuhl.firebaseio.com",
+    "project_id": "shohanbot-xasuhl",
+    "storage_bucket": "shohanbot-xasuhl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808698066797:android:167400c18f8d60cc504c64",
+        "android_client_info": {
+          "package_name": "com.example.firebase.firebas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808698066797-tcq48p2gkqsgh9p4avmhhsrf871pf1kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEYtw7M2cqxWLzpeQZPuVQl1mtgJBVXp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808698066797-d9jsrndslpk5j1jn5jhkp1daje0tslu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
