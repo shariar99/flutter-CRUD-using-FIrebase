@@ -132,13 +132,15 @@ class _EmployeeState extends State<Employee> {
                     onPressed: () async {
                       String Id = randomAlphaNumeric(10);
 
-                      Map<String , dynamic> employeeInfoMap ={
+                      Map<String, dynamic> employeeInfoMap = {
                         "Name": nameController.text,
                         "age": ageController.text,
                         "location": locationController.text,
                         "id": Id
                       };
-                      await DatabaseMethods().addEmployeeDetails(employeeInfoMap, Id).then((onValue){
+                      await DatabaseMethods()
+                          .addEmployeeDetails(employeeInfoMap, Id)
+                          .then((onValue) {
                         Fluttertoast.showToast(
                             msg: "Employee Add successfully",
                             toastLength: Toast.LENGTH_SHORT,
@@ -146,8 +148,8 @@ class _EmployeeState extends State<Employee> {
                             timeInSecForIosWeb: 1,
                             backgroundColor: Colors.red,
                             textColor: Colors.white,
-                            fontSize: 16.0
-                        );
+                            fontSize: 16.0);
+                        Navigator.pop(context);
                       });
                     },
                     child: Text(
